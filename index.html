@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZERVOK · 저보크</title>
+<meta name="description" content="ZERVOK(저보크)는 브라우저에서 바로 쓰는 가볍고 재미있는 웹 서비스와 도구를 만듭니다. 저보크 로또를 비롯한 서비스를 만나 보세요.">
+<meta name="theme-color" content="#0b1020">
+<link rel="canonical" href="https://zervok.com/">
+<link rel="icon" href="/Images/ZERVOK_ICON_WEB.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ZERVOK · 저보크">
+<meta property="og:description" content="브라우저에서 바로 쓰는 가볍고 재미있는 웹 서비스와 도구를 만듭니다.">
+<style>
+  :root { --bg:#0b1020; --bg2:#121a33; --card:rgba(255,255,255,.055); --card-b:rgba(255,255,255,.1); --text:#eef1fb; --dim:#98a2c3; --accent:#7c5cff; --accent2:#22d3ee; }
+  * { box-sizing: border-box; }
+  body { margin:0; min-height:100vh; font-family:'Pretendard','Noto Sans KR','Malgun Gothic',system-ui,sans-serif; color:var(--text); line-height:1.7;
+    background: radial-gradient(900px 500px at 15% -10%, rgba(124,92,255,.28), transparent 60%), radial-gradient(800px 500px at 100% 0%, rgba(34,211,238,.18), transparent 55%), var(--bg); }
+  a { color:inherit; }
+  .wrap { max-width:980px; margin:0 auto; padding:0 20px; }
+  header { padding:26px 0; display:flex; align-items:center; gap:12px; }
+  header img { width:34px; height:auto; }
+  header b { font-size:1.25rem; letter-spacing:.14em; }
+  header small { color:var(--dim); margin-left:4px; }
+  .hero { padding:56px 0 34px; }
+  .hero h1 { font-size:clamp(2rem,5.5vw,3.3rem); line-height:1.2; margin:0 0 16px; letter-spacing:-.02em; }
+  .hero h1 span { background:linear-gradient(90deg,var(--accent),var(--accent2)); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .hero p { color:var(--dim); max-width:640px; font-size:1.05rem; margin:0; }
+  h2 { font-size:1.15rem; margin:46px 0 14px; }
+  .grid { display:grid; gap:16px; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); }
+  .card { display:block; text-decoration:none; padding:22px; border-radius:18px; background:var(--card); border:1px solid var(--card-b); transition:transform .15s, border-color .15s; }
+  a.card:hover { transform:translateY(-3px); border-color:var(--accent); }
+  .card .ic { font-size:1.8rem; }
+  .card h3 { margin:8px 0 4px; font-size:1.1rem; }
+  .card p { margin:0; color:var(--dim); font-size:.93rem; }
+  .tag { display:inline-block; margin-top:12px; padding:2px 10px; border-radius:99px; font-size:.78rem; border:1px solid var(--card-b); color:var(--dim); }
+  .tag.live { color:#34d399; border-color:rgba(52,211,153,.5); }
+  .card.soon { opacity:.72; }
+  .about p { color:#d9def2; max-width:720px; }
+  footer { margin-top:70px; padding:24px 0 50px; border-top:1px solid var(--card-b); color:var(--dim); font-size:.84rem; line-height:1.8; }
+  footer a { color:var(--accent2); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><img src="/Images/ZERVOK_ICON_WEB.svg" alt="" width="34" height="40"><b>ZERVOK</b><small>저보크</small></header>
+
+  <section class="hero">
+    <h1>브라우저에서 바로 쓰는,<br><span>가볍고 재미있는 도구</span>를 만듭니다.</h1>
+    <p>ZERVOK(저보크)는 설치도 회원가입도 필요 없는 웹 서비스를 만드는 작은 스튜디오입니다. 데이터는 가능한 한 사용자의 기기 안에서만 처리합니다.</p>
+  </section>
+
+  <h2>서비스</h2>
+  <div class="grid">
+    <a class="card" href="https://lotto.zervok.com/">
+      <div class="ic">🎱</div>
+      <h3>저보크 로또 (Zervok Lotto)</h3>
+      <p>로또 6/45 당첨 기록을 분석하고 번호를 고르며 즐기는 정보·오락 사이트. 알고리즘 비교 리그, 통계 랩, 내 번호 자동 채점.</p>
+      <span class="tag live">운영 중</span>
+    </a>
+    <div class="card soon">
+      <div class="ic">🎨</div>
+      <h3>저보크 스튜디오</h3>
+      <p>브라우저에서 쓰는 그래픽 도구 모음(픽셀·벡터 등). 준비 중입니다.</p>
+      <span class="tag">준비 중</span>
+    </div>
+  </div>
+
+  <h2>소개</h2>
+  <div class="about">
+    <p>저보크는 "작고 빠르고 쓰기 쉬운" 서비스를 지향합니다. 각 서비스는 독립된 주소에서 운영되며, 서비스별 개인정보처리방침과 이용약관을 해당 사이트에서 확인할 수 있습니다.</p>
+    <p>문의나 제안은 <a href="mailto:nazombabara@gmail.com" style="color:var(--accent2)">nazombabara@gmail.com</a>으로 보내 주세요.</p>
+  </div>
+
+  <footer>
+    <p>상호 엔키마 (Enkyma) · 대표자 김완수 · 사업자등록번호 221-08-42597<br>사업장 소재지 강원도 춘천시 봉의산길22번길 16, B01호</p>
+    <p><a href="https://lotto.zervok.com/privacy.html">개인정보처리방침</a> · <a href="https://lotto.zervok.com/terms.html">이용약관</a> · <a href="https://lotto.zervok.com/about.html">저보크 로또 소개</a></p>
+    <p>© ZERVOK(저보크). All rights reserved. 문의: <a href="mailto:nazombabara@gmail.com">nazombabara@gmail.com</a></p>
+  </footer>
+</div>
+</body>
+</html>
